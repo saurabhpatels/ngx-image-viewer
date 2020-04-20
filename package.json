@@ -1,24 +1,36 @@
 {
-  "name": "ngx-image-viewer",
-  "version": "1.0.13",
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ng-package.json"
+  "_from": "ngx-image-viewer@1.0.11",
+  "_id": "ngx-image-viewer@1.0.11",
+  "_inBundle": false,
+  "_integrity": "sha512-ZQKDrFSXH4pYk8PvzIXYGI0/tEbBU+p129/rF1kqaov7CDphnbbdhhi1FQVTErBmLQ4IlK6yEg4qcUzwV7mIEw==",
+  "_location": "/ngx-image-viewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ngx-image-viewer@1.0.11",
+    "name": "ngx-image-viewer",
+    "escapedName": "ngx-image-viewer",
+    "rawSpec": "1.0.11",
+    "saveSpec": null,
+    "fetchSpec": "1.0.11"
   },
-  "private": false,
-  "peerDependencies": {
-    "@angular/core": ">= 2.0.0",
-    "@angular/common": ">= 2.0.0"
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-image-viewer/-/ngx-image-viewer-1.0.11.tgz",
+  "_shasum": "68dda55c9767a697b53f97885303c04621aba691",
+  "_spec": "ngx-image-viewer@1.0.11",
+  "_where": "E:\\Angular\\Qaar\\admin",
+  "bugs": {
+    "url": "https://github.com/jpilfold/ngx-image-viewer/issues"
   },
-  "repository": {
-    "url": "https://github.com/jpilfold/ngx-image-viewer"
+  "bundleDependencies": false,
+  "dependencies": {
+    "screenfull": "5.0.2"
   },
+  "deprecated": false,
+  "description": "A configurable Angular image viewer component, compatible with Angular 2.x, 4.x and 5.x",
   "devDependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/cli": "1.6.0",
@@ -55,7 +67,30 @@
     "typescript": "~2.4.2",
     "zone.js": "^0.8.14"
   },
-  "dependencies": {
-    "screenfull": "5.0.0"
-  }
+  "es2015": "ngx-image-viewer.js",
+  "homepage": "https://github.com/jpilfold/ngx-image-viewer#readme",
+  "license": "MIT",
+  "main": "bundles/ngx-image-viewer.umd.js",
+  "metadata": "ngx-image-viewer.metadata.json",
+  "module": "ngx-image-viewer.es5.js",
+  "name": "ngx-image-viewer",
+  "peerDependencies": {
+    "@angular/core": ">= 2.0.0",
+    "@angular/common": ">= 2.0.0"
+  },
+  "private": false,
+  "repository": {
+    "url": "git+https://github.com/jpilfold/ngx-image-viewer.git"
+  },
+  "scripts": {
+    "build": "ng build",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "packagr": "ng-packagr -p ng-package.json",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "typings": "ngx-image-viewer.d.ts",
+  "version": "1.0.11"
 }
