@@ -27,7 +27,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "screenfull": "5.0.2"
+    "screenfull": "^3.3.2"
   },
   "deprecated": false,
   "description": "A configurable Angular image viewer component, compatible with Angular 2.x, 4.x and 5.x",
